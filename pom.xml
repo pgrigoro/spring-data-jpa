@@ -22,7 +22,7 @@
 		<dist.key>DATAJPA</dist.key>
 
 		<eclipselink>2.6.5</eclipselink>
-		<hibernate>5.2.17.Final</hibernate>
+		<hibernate>5.4.12.Final</hibernate>
 		<mockito>2.19.1</mockito>
 		<hibernate.groupId>org.hibernate</hibernate.groupId>
 		<jpa>2.0.0</jpa>
@@ -38,7 +38,7 @@
 		<profile>
 			<id>hibernate-next</id>
 			<properties>
-				<hibernate>5.2.18-SNAPSHOT</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 			</properties>
 			<repositories>
 				<repository>
@@ -50,14 +50,14 @@
 		<profile>
 			<id>hibernate-53</id>
 			<properties>
-				<hibernate>5.3.5.Final</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 				<mockito>2.19.1</mockito>
 			</properties>
 		</profile>
 		<profile>
 			<id>hibernate-53-next</id>
 			<properties>
-				<hibernate>5.3.8-SNAPSHOT</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 				<mockito>2.19.1</mockito>
 			</properties>
 			<repositories>
@@ -70,14 +70,14 @@
 		<profile>
 			<id>hibernate-54</id>
 			<properties>
-				<hibernate>5.4.1.Final</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 				<mockito>2.19.1</mockito>
 			</properties>
 		</profile>
 		<profile>
 			<id>hibernate-54-next</id>
 			<properties>
-				<hibernate>5.4.2-SNAPSHOT</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 				<mockito>2.19.1</mockito>
 			</properties>
 			<repositories>
@@ -90,7 +90,7 @@
 		<profile>
 			<id>hibernate-6-next</id>
 			<properties>
-				<hibernate>6.0.0-SNAPSHOT</hibernate>
+				<hibernate>5.4.12.Final</hibernate>
 				<hibernate.groupId>org.hibernate.orm</hibernate.groupId>
 				<mockito>2.19.1</mockito>
 			</properties>
