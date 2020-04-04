@@ -21,7 +21,7 @@
 
 		<dist.key>DATAJPA</dist.key>
 
-		<eclipselink>2.6.5</eclipselink>
+		<eclipselink>2.7.6</eclipselink>
 		<hibernate>5.2.17.Final</hibernate>
 		<mockito>2.19.1</mockito>
 		<hibernate.groupId>org.hibernate</hibernate.groupId>
@@ -104,7 +104,7 @@
 		<profile>
 			<id>eclipselink-next</id>
 			<properties>
-				<eclipselink>2.6.6-SNAPSHOT</eclipselink>
+				<eclipselink>2.7.6</eclipselink>
 			</properties>
 			<repositories>
 				<repository>
@@ -116,13 +116,13 @@
 		<profile>
 			<id>eclipselink-27</id>
 			<properties>
-				<eclipselink>2.7.3</eclipselink>
+				<eclipselink>2.7.6</eclipselink>
 			</properties>
 		</profile>
 		<profile>
 			<id>eclipselink-27-next</id>
 			<properties>
-				<eclipselink>2.7.4-SNAPSHOT</eclipselink>
+				<eclipselink>2.7.6</eclipselink>
 			</properties>
 			<repositories>
 				<repository>
